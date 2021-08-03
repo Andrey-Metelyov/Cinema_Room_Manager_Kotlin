@@ -29,7 +29,7 @@ fun menu(grid: Array<CharArray>) {
         when (choice) {
             1 -> show(grid)
             2 -> soldTicket(grid)
-            0 -> exit()
+            0 -> return
             else -> println("wrong choice")
         }
     }
